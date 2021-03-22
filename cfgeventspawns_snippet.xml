@@ -1,0 +1,5 @@
+<!-- Code snippet to be copied and pasted into your cfgeventspawns xml file to give you a water pump at the given coordinates -->
+
+<event name="StaticPlanksGM">
+        <pos x="3694.72" z="5998.08" a="113.000000" />
+    </event>

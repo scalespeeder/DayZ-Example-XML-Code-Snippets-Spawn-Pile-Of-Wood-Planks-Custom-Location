@@ -1,0 +1,19 @@
+<!-- Code snippet to be copied and pasted into your events xml file to give you a working water pump at a custm location -->
+
+    <event name="StaticPlanksGM">
+        <nominal>40</nominal>
+        <min>40</min>
+        <max>50</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="40" min="40" type="PileOfWoodenPlanks"/><!-- also can try WoodenPlank or WoodenLog -->
+        </children>
+    </event>
